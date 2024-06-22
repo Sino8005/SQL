@@ -1,17 +1,17 @@
 
 -- Create a new database:
-CREATE DATABASE my_first_database;
+CREATE DATABASE banana;
 
 -- Verify database creation:
 SHOW DATABASES;
 
--- You should see 'my_first_database' listed among the databases.
+-- You should see 'banana' listed among the databases.
 
 -- Creating Tables
 -- Tables are the primary storage objects in a database. Each table stores data related to a specific topic.
 
 -- Select your database:
-USE my_first_database;
+USE banana;
 
 -- Create a table for storing information about users:
 CREATE TABLE users (
@@ -114,10 +114,10 @@ DROP TABLE products;
 SHOW TABLES;
 
 -- Example: Dropping the database:
-DROP DATABASE my_first_database;
+DROP DATABASE banana;
 
 -- Verify the database drop:
 SHOW DATABASES;
 
--- You should no longer see 'my_first_database' listed among the databases.
+-- You should no longer see 'banana' listed among the databases.
 
