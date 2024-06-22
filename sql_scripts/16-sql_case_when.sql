@@ -1,5 +1,3 @@
--- Extensive Documentation on CASE WHEN in SQL
-
 -- Introduction to CASE WHEN
 -- The CASE statement is SQL's way of handling if/then logic.
 -- CASE can be used in any statement or clause that allows a valid expression.
