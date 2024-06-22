@@ -4,10 +4,10 @@
 -- _: Represents a single character.
 
 
--- Write a query to find all actors whose last name starts with 'Smi'.
+-- Write a query to find all actors whose last name starts with 'Tem'.
 SELECT first_name, last_name
 FROM actor
-WHERE last_name LIKE 'do%';
+WHERE first_name LIKE 'Tem%';
 
 -- Explanation:
 -- The actor table contains a column named 'last_name'.
@@ -15,7 +15,7 @@ WHERE last_name LIKE 'do%';
 
 
 
--- Write a query to find all films whose title contains the word 'Adventure'.
+-- Write a query to find all films whose title contains the word 'Song'.
 SELECT title
 FROM film
 WHERE title LIKE '%Song%';

@@ -6,9 +6,8 @@
 -- MAX: Returns the maximum value in a set.
 -- MIN: Returns the minimum value in a set.
 
-
 -- Write a query to count the total number of films.
-SELECT COUNT(*) AS total_films
+SELECT COUNT(*) 
 FROM film;
 
 -- Explanation:
@@ -16,16 +15,16 @@ FROM film;
 
 
 -- Write a query to count the number of actors with the last name 'Smith'.
-SELECT COUNT(*) AS smith_actors
+SELECT COUNT(*) 
 FROM actor
-WHERE last_name = 'Smith';
+WHERE first_name = 'Adam';
 
 -- Explanation:
 -- The COUNT(*) function returns the number of rows in the actor table where the last name is 'Smith'.
 
 
 -- Write a query to count the number of films released in 2006.
-SELECT COUNT(*) AS films_2006
+SELECT COUNT(*) 
 FROM film
 WHERE release_year = 2006;
 
@@ -35,7 +34,7 @@ WHERE release_year = 2006;
 
 
 -- Write a query to find the average length of all films.
-SELECT AVG(length) AS average_length
+SELECT AVG(length) 
 FROM film;
 
 -- Explanation:
@@ -43,7 +42,7 @@ FROM film;
 
 
 -- Write a query to find the maximum rental rate of all films.
-SELECT MAX(rental_rate) AS max_rental_rate
+SELECT MAX(rental_rate) 
 FROM film;
 
 -- Explanation:
@@ -51,7 +50,7 @@ FROM film;
 
 
 -- Write a query to calculate the total length of all films.
-SELECT SUM(length) AS total_length
+SELECT SUM(length) 
 FROM film;
 
 -- Explanation:
@@ -59,7 +58,7 @@ FROM film;
 
 
 -- Write a query to find the minimum replacement cost of all films.
-SELECT MIN(replacement_cost) AS min_replacement_cost
+SELECT MIN(replacement_cost)
 FROM film;
 
 -- Explanation:

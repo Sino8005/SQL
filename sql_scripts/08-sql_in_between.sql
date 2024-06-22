@@ -81,7 +81,8 @@ WHERE release_year BETWEEN 2005 AND 2007;
 -- Write a query to find all actors whose first name is alphabetically between 'A' and 'M'.
 SELECT first_name, last_name
 FROM actor
-WHERE first_name BETWEEN 'A' AND 'M';
+WHERE first_name BETWEEN 'A' AND 'M'
+
 
 -- Explanation:
 -- The actor table contains a column named 'first_name'.
