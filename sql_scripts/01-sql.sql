@@ -15,6 +15,9 @@ SELECT DISTINCT rating
 FROM film;
 
 -- Practice Question for SELECT: Write a query to list the titles and release years of all films.
+SELECT titles,release_year
+FROM films;
+
 
 
 
@@ -40,6 +43,9 @@ WHERE rental_date BETWEEN '2005-05-01' AND '2005-05-31';
 
 
 -- Practice Question for Where clause:  Write a query to find all films with a rating of 'R'.
+SELECT rating
+FROM film
+WHERE ='R';
 
 
 
@@ -86,4 +92,6 @@ ORDER BY release_year ASC, rental_rate DESC;
 
 -- Practice Question for ORDER BY clause: Write a query to list all customers, sorted by their last name in ascending order.
 
-
+SELECT customers
+FROM 
+ORDER BY 
