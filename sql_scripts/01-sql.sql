@@ -15,7 +15,8 @@ SELECT DISTINCT rating
 FROM film;
 
 -- Practice Question for SELECT: Write a query to list the titles and release years of all films.
-
+SELECT titles, release_year
+FROM film;
 
 
 -- WHERE clause is used to filter records based on specified conditions. This query returns all films released in the year 2006.
